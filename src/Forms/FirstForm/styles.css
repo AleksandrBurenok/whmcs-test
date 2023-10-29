@@ -1,0 +1,251 @@
+.wrapper {
+  background-color: #272727;
+  border-radius: 10px;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 20px 40px;
+}
+
+.feature {
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: fit-content;
+  padding: 0 12px;
+}
+
+.iconFeature {
+  margin-right: 8px;
+}
+
+.domainName {
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  margin: 8px 0;
+  min-height: 33px;
+}
+
+.domainText {
+  color: #b5b5b5;
+  margin: 5px 0;
+}
+
+.wrapperCart {
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+.wrapperCart {
+  display: flex;
+  align-items: center;
+}
+
+.iconInfo {
+  margin: 0 10px 0 3px;
+}
+
+.price {
+  font-size: 22px;
+  color: white;
+  margin-right: 15px;
+}
+
+.btnCart {
+  background-color: white;
+  border: unset;
+  border-radius: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.btnCartText {
+  margin-right: 5px;
+}
+
+.greyLine {
+  background-color: grey;
+  height: 1px;
+}
+
+.bottomBlock {
+  padding: 30px 40px 40px 40px;
+}
+
+.wrapperFeatures {
+  display: flex;
+  align-items: center;
+  color: #b5b5b5;
+}
+
+.featuresText {
+  margin-right: 15px;
+}
+
+.wrapperFeatures .feature {
+  margin-right: 12px;
+}
+
+.configText {
+  text-align: left;
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+.wrapperConfig {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.configBlock {
+  background-color: #efefef;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px;
+  width: 46%;
+  min-height: 209px;
+}
+
+.configBlockListTitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.configList {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.configList > li {
+  clear: left;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.configList > li:before {
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  display: block;
+  float: left;
+  margin-left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.configList > li:before {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='122.881px' height='122.88px' viewBox='0 0 122.881 122.88' enable-background='new 0 0 122.881 122.88' fill-rule='evenodd'%3E%3Cpath d='M61.44,0c33.933,0,61.441,27.507,61.441,61.439 c0,33.933-27.508,61.44-61.441,61.44C27.508,122.88,0,95.372,0,61.439C0,27.507,27.508,0,61.44,0L61.44,0z M34.106,67.678 l-0.015-0.014c-0.785-0.718-1.207-1.685-1.256-2.669c-0.049-0.982,0.275-1.985,0.984-2.777c0.01-0.011,0.019-0.021,0.029-0.031 c0.717-0.784,1.684-1.207,2.668-1.256c0.989-0.049,1.998,0.28,2.792,0.998l12.956,11.748l31.089-32.559v0 c0.74-0.776,1.723-1.18,2.719-1.204c0.992-0.025,1.994,0.329,2.771,1.067v0.001c0.777,0.739,1.18,1.724,1.205,2.718 c0.025,0.993-0.33,1.997-1.068,2.773L55.279,81.769c-0.023,0.024-0.048,0.047-0.073,0.067c-0.715,0.715-1.649,1.095-2.598,1.13 c-0.974,0.037-1.963-0.293-2.744-1L34.118,67.688L34.106,67.678L34.106,67.678L34.106,67.678z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  padding: 0.15rem;
+  margin-right: 5px;
+}
+
+.configList li span {
+  font-weight: 700;
+}
+
+.regPeriodText {
+  margin: 0;
+  font-weight: 700;
+}
+
+.wrapperSelect {
+  position: relative;
+}
+
+.select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #b5b5b5;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 0 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.wrapperArrow {
+  position: absolute;
+  background-color: white;
+  right: 2px;
+  top: 37px;
+  width: 40px;
+}
+
+.renewsText {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.renewsText span {
+  margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+  .wrapperFeatures,
+  .wrapperConfig {
+    flex-direction: column;
+  }
+  .bottomBlock .wrapperFeatures .feature {
+    margin: 12px 0 12px 0;
+  }
+  .bottomBlock .configText {
+    text-align: center;
+  }
+  .configBlock {
+    margin-bottom: 20px;
+  }
+  .configBlock:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .topBlock {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .wrapperConfig .configBlock {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper .topBlock,
+  .wrapper .bottomBlock {
+    padding: 16px;
+  }
+  .domainText {
+    text-align: left;
+    font-size: 14px;
+  }
+  .wrapperFeatures .feature {
+    font-size: 12px;
+    height: 35px;
+  }
+  .wrapperConfig .configBlock {
+    padding: 10px;
+  }
+  .configBlock .configList {
+    font-size: 13px;
+  }
+}
